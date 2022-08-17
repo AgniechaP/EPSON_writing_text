@@ -1,10 +1,10 @@
-ENVT0100,LM:2022/08/17 20:43:22:763,DS:0000020746,CS:26900,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/17 20:53:44:855,DS:0000021597,CS:19016,MA:88-D7-F6-22-0A-47,EI:           
 sVersion="2.0.0"
 bDisplayR=False
 bDisplayS=False
 bDisplayT=False
 nNumberOfJoints=4
-nNumberOfPoints=73
+nNumberOfPoints=76
 Point1 {
 	nNumber=0
 	sLabel="Pole1"
@@ -1893,6 +1893,84 @@ Point73 {
 	rT=0
 	nLocal=0
 	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point74 {
+	nNumber=73
+	sLabel="E11"
+	sDescription=""
+	nUndefined=262143
+	rX=0
+	rY=0
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point75 {
+	nNumber=74
+	sLabel="E12"
+	sDescription=""
+	nUndefined=262143
+	rX=0
+	rY=0
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point76 {
+	nNumber=75
+	sLabel="Pole6"
+	sDescription=""
+	nUndefined=448
+	rX=330
+	rY=-135
+	rZ=-130
+	rU=6.523
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=2
 	nElbow=1
 	nWrist=1
 	nJ1Flag=0

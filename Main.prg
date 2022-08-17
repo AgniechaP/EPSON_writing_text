@@ -205,4 +205,30 @@ Function literaE
  	
 	
 Fend
+Function literaF
+' Krawedzie litera F
+ 	F1 = Pole6 +X(-31) +Y(-51)
+ 	F2 = F1 +Y(30)
+ 	F3 = F2 +X(-56)
+ 	F4 = F3 +Y(-7)
+ 	F5 = F4 +X(25)
+ 	F6 = F5 +Y(-20)
+ 	F7 = F6 +X(7)
+ 	F8 = F5 +X(7)
+ 	F9 = F8 +X(19)
+ 	F10 = F9 +Y(-20)
+ 	
+ 	Move F1
+ 	Move F2
+ 	Move F3
+ 	Move F4
+ 	Move F5
+ 	Move F6
+ 	Move F7
+ 	Move F8
+ 	Move F9
+ 	Move F10
+ 	Move F1
+ 	
+Fend
 
