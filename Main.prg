@@ -110,4 +110,67 @@ Function literaB
 		
 	Loop
 Fend
+Function literaC
+		
+	C1 = Pole3 +X(-33) +Y(-55)
+	C2 = C1 +Y(25)
+	C3 = C2 +X(-27) +Y(15)
+	C4 = C2 +X(-54)
+	C5 = C1 +X(-54)
+	C6 = C5 +X(7)
+	C7 = C4 +X(7)
+	C8 = C3 +Y(-8)
+	C9 = C2 +X(-7)
+	C10 = C1 +X(-7)
+	
+
+		
+	Move C1
+	Move C2
+	Arc C3, C4
+	Move C5
+	Move C6
+	Move C7
+	Arc C8, C9
+	Move C10
+	Move C1
+	
+Fend
+Function literaD
+	D1 = Pole4 +X(-32) +Y(-15)
+	D2 = D1 +Y(-20)
+	D3 = D2 +X(-8) +Y(-16)
+	D4 = D2 +X(-26) +Y(-22)
+	D5 = D4 +X(-4)
+	D6 = D3 +X(-40)
+	D7 = D2 +X(-56)
+	D8 = D7 +Y(20)
+	D9 = D1 +Y(-7)
+	D10 = D9 +X(-48)
+	D11 = D10 +Y(-10)
+	D12 = D3 +X(-35) +Y(6)
+	D13 = D5 +Y(8)
+	D14 = D13 +X(4)
+	D15 = D12 +X(29)
+	D16 = D2 +X(-8)
+	D17 = D9 +X(-8)
+		
+	Move D1
+	Move D2
+	Arc D3, D4
+	Move D5
+	Arc D6, D7
+	Move D8
+	Move D1
+	Move D9
+	Move D10
+	Move D11
+	Arc D12, D13
+	Move D14
+	Arc D15, D16
+	Move D17
+	
+	
+	
+Fend
 
