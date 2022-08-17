@@ -1,12 +1,12 @@
-ENVT0100,LM:2022/08/17 08:51:37:500,DS:0000007113,CS:17768,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/17 09:18:57:350,DS:0000007115,CS:09003,MA:88-D7-F6-22-0A-47,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
-	sGUID="ee3db6f3-8d9f-406f-bfe9-f2d27f09dd02"
-	sPath="E:\\EpsonRC70\\Projects\\Test_EPSON_writing\\"
+	sGUID="04adde6a-d89c-4f6e-9b55-2aac5112be8d"
+	sPath="E:\\EpsonRC70\\Projects\\EPSON_writing_text\\"
 	sCreated="16.08.2022 08:58:49"
-	sLastModified="17.08.2022 10:51:37"
-	bBuildComplete=True
+	sLastModified="17.08.2022 11:18:55"
+	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
 	bClearControllerProject=False
@@ -41,9 +41,9 @@ nRobotCount=1
 nProgramFileCount=1
 ProgramFile1 {
 	sName="Main.prg"
-	bCompiled=True
+	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="17.08.2022 08:51:37"
+	sTimeSavedInController="17.08.2022 09:12:36"
 }
 nIncludeFileCount=0
 nPointFileCount=1
@@ -51,7 +51,7 @@ PointFile1 {
 	sName="robot1.pts"
 	nRobot=1
 	bDefault=True
-	sTimeSavedInController="17.08.2022 08:50:34"
+	sTimeSavedInController="17.08.2022 09:17:47"
 }
 nForceFileCount=0
 OperatorSettings {
@@ -409,13 +409,13 @@ IOCustomView3 {
 }
 nVisFileCount=1
 VisFile1 {
-	sName="Test_EPSON_writing.vis"
+	sName="EPSON_writing_text.vis"
 }
 nGuiBuilderFileCount=0
 nExProgramFileCount=0
 nFGFileCount=1
 FGFile1 {
-	sName="Test_EPSON_writing.fg"
+	sName="EPSON_writing_text.fg"
 }
 bFGCompiled=False
 Simulator {

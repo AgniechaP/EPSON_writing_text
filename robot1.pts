@@ -1,10 +1,10 @@
-ENVT0100,LM:2022/08/17 08:55:48:378,DS:0000003591,CS:16476,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/17 09:17:47:470,DS:0000003872,CS:16235,MA:88-D7-F6-22-0A-47,EI:           
 sVersion="2.0.0"
 bDisplayR=False
 bDisplayS=False
 bDisplayT=False
 nNumberOfJoints=4
-nNumberOfPoints=12
+nNumberOfPoints=13
 Point1 {
 	nNumber=0
 	sLabel="Pole1"
@@ -294,6 +294,32 @@ Point11 {
 Point12 {
 	nNumber=11
 	sLabel="A11"
+	sDescription=""
+	nUndefined=262143
+	rX=0
+	rY=0
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point13 {
+	nNumber=12
+	sLabel="A9_1"
 	sDescription=""
 	nUndefined=262143
 	rX=0
