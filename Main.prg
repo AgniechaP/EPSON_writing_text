@@ -173,4 +173,36 @@ Function literaD
 	
 	
 Fend
+Function literaE
+' Krawedzie litera E
+ 	E1 = Pole5 +X(-31) +Y(-51)
+ 	E2 = E1 +Y(30)
+ 	E3 = E2 +X(-56)
+ 	E4 = E1 +X(-56)
+ 	E5 = E4 +X(7)
+ 	E6 = E5 +Y(23)
+ 	E7 = E6 +X(20)
+ 	E8 = E7 +Y(-20)
+ 	E9 = E8 +X(7)
+ 	E10 = E7 +X(7)
+ 	E11 = E10 +X(15)
+ 	E12 = E1 +X(-7)
+ 	
+ 	Move E1
+ 	Move E2
+ 	Move E3
+ 	Move E4
+ 	Move E5
+ 	Move E6
+ 	Move E7
+ 	Move E8
+ 	Move E9
+ 	Move E10
+ 	Move E11
+ 	Move E12
+ 	Move E1
+ 	
+ 	
+	
+Fend
 
