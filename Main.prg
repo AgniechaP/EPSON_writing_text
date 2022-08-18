@@ -748,6 +748,147 @@ Function literaW(numer_pola As Integer)
 	Move W1
 	
 Fend
+Function literaX(numer_pola As Integer)
+	
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
+	X1 = pole +X(14) +Y(-33)
+	X2 = X1 +Y(-27) +X(15)
+	X3 = X1 +Y(-54)
+	X4 = X3 +X(7)
+	X5 = X4 +X(13) +Y(22)
+	X6 = X4 +X(26)
+	X7 = X6 +X(7)
+	X8 = X7 +X(-15) +Y(27)
+	X9 = X7 +Y(54)
+	X10 = X9 +X(-7)
+	X11 = X10 +X(-13) +Y(-22)
+	X12 = X1 +X(7)
+	
+	Jump X1 LimZ -60
+	Move X2
+	Move X3
+	Move X4
+	Move X5
+	Move X6
+	Move X7
+	Move X8
+	Move X9
+	Move X10
+	Move X11
+	Move X12
+	Move X1
+	
+	
+Fend
+Function literaY(numer_pola As Integer)
+	
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
+	Y1 = pole +X(14) +Y(-32)
+	Y2 = Y1 +X(16) +Y(-33)
+	Y3 = Y2 +Y(-21)
+	Y4 = Y3 +X(7)
+	Y5 = Y4 +Y(21)
+	Y6 = Y5 +X(16) +Y(33)
+	Y7 = Y6 +X(-7)
+	Y8 = Y7 +X(-12.5) +Y(-26)
+	Y9 = Y8 +Y(26) +X(-12.5)
+	
+	Jump Y1 LimZ -60
+	Move Y2
+	Move Y3
+	Move Y4
+	Move Y5
+	Move Y6
+	Move Y7
+	Move Y8
+	Move Y9
+	Move Y1
+	
+Fend
+Function literaZ(numer_pola As Integer)
+	
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
+	Z1 = pole +X(16) +Y(-32)
+	Z2 = Z1 +Y(-7)
+	Z3 = Z2 +X(22)
+	Z4 = Z3 +X(-26) +Y(-43)
+	Z5 = Z4 +Y(-7)
+	Z6 = Z5 +X(36)
+	Z7 = Z6 +Y(7)
+	Z8 = Z7 +X(-28)
+	Z9 = Z3 +X(8)
+	Z10 = Z9 +Y(7)
+	
+	Jump Z1 LimZ -60
+	Move Z2
+	Move Z3
+	Move Z4
+	Move Z5
+	Move Z6
+	Move Z7
+	Move Z8
+	Move Z9
+	Move Z10
+	Move Z1
+	
+Fend
 Function literaO(numer_pola As Integer)
 	
 	Select numer_pola
