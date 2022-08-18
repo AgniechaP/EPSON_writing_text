@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/08/18 02:21:59:452,DS:0000007113,CS:10538,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/18 22:59:48:401,DS:0000007113,CS:11562,MA:88-D7-F6-22-0A-47,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="04adde6a-d89c-4f6e-9b55-2aac5112be8d"
 	sPath="E:\\EpsonRC70\\Projects\\EPSON_writing_text\\"
 	sCreated="16.08.2022 08:58:49"
-	sLastModified="18.08.2022 04:21:59"
+	sLastModified="19.08.2022 00:59:47"
 	bBuildComplete=True
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -43,7 +43,7 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="18.08.2022 02:21:59"
+	sTimeSavedInController="18.08.2022 22:59:47"
 }
 nIncludeFileCount=0
 nPointFileCount=1
@@ -51,7 +51,7 @@ PointFile1 {
 	sName="robot1.pts"
 	nRobot=1
 	bDefault=True
-	sTimeSavedInController="18.08.2022 02:06:48"
+	sTimeSavedInController="18.08.2022 22:42:49"
 }
 nForceFileCount=0
 OperatorSettings {
