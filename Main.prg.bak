@@ -5,12 +5,33 @@ Function Init
 	Reset
 	Motor On
 	Power High
+	
+
 Fend
-Function literaA
+Function literaA(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
 ' Definicja A
 ' Kontury zewnetrzne litery A
 
-	A1 = Pole1 +X(-30) +Y(-30)
+	A1 = pole +X(-30) +Y(-30)
 	A2 = A1 +Y(-10)
 	A3 = A2 +X(-55) +Y(-20)
 	A4 = A3 +Y(9)
@@ -28,8 +49,6 @@ Function literaA
 		
 ' Ruch litera A 
 
-	' Move Pole1
-	Do
  		Move A1
  		Move A2
  		Move A3
@@ -44,20 +63,6 @@ Function literaA
  		Move A10
  		Move A11
  		Move A9
- 		
-' Powrot litery zapetlony 
-
-		Move A9
-		Move A1
-		Move A8
-		Move A7
-		Move A6
-		Move A5
-		Move A4
-		Move A3
-		Move A2
-		Move A1
-	Loop
 
 Fend
 Function literaB
@@ -203,6 +208,221 @@ Function literaE
  	Move E1
  	
  	
+	
+Fend
+Function literaF
+' Krawedzie litera F
+ 	F1 = Pole6 +X(-31) +Y(-51)
+ 	F2 = F1 +Y(30)
+ 	F3 = F2 +X(-56)
+ 	F4 = F3 +Y(-7)
+ 	F5 = F4 +X(25)
+ 	F6 = F5 +Y(-20)
+ 	F7 = F6 +X(7)
+ 	F8 = F5 +X(7)
+ 	F9 = F8 +X(19)
+ 	F10 = F9 +Y(-20)
+ 	
+ 	Move F1
+ 	Move F2
+ 	Move F3
+ 	Move F4
+ 	Move F5
+ 	Move F6
+ 	Move F7
+ 	Move F8
+ 	Move F9
+ 	Move F10
+ 	Move F1
+ 	
+Fend
+Function literaS(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
+	S1 = pole +X(-34) +Y(-48)
+	S2 = S1 +X(4) +Y(12)
+	S3 = S1 +Y(24)
+	S7 = S3 +X(-1) +Y(1)
+	S8 = S3 +X(-10) +Y(5)
+	S9 = S7 +X(-19)
+	S10 = S9 +X(-1) +Y(-1)
+	S11 = S9 +X(-11) +Y(-20)
+	S4 = S1 +X(-43) +Y(7)
+	S5 = S4 +X(-4) +Y(12)
+	S6 = S4 +Y(24)
+	S12 = S11 +X(-6) +Y(-2)
+	S13 = S4 +X(-1) +Y(1)
+	S14 = S6 +X(-7)
+	S15 = S14 +X(-4) +Y(-13)
+	S16 = S14 +Y(-26)
+	S17 = S16 +X(1) +Y(-1)
+	S18 = S17 +X(12) +Y(-6)
+	S19 = S17 +X(24)
+	S20 = S19 +X(1) +Y(1)
+	S21 = S20 +X(9) +Y(17)
+	S22 = S21 +X(5) +Y(2)
+	S23 = S21 +X(10)
+	S24 = S23 +X(1) +Y(-1)
+	S25 = S24 +X(1) +Y(-6)
+	S26 = S24 +Y(-12)
+	S27 = S1 +X(-6)
+	
+	
+	Move S1
+	Arc S2, S3
+	Move S7
+	Arc S8, S9
+	Move S10
+	Move S11
+	Arc S12, S4
+	Move S13
+	Arc S5, S6
+	Move S14
+	Arc S15, S16
+	Move S17
+	Arc S18, S19
+	Move S20
+	Move S21
+	Arc S22, S23
+	Move S24
+	Arc S25, S27
+	Move S1
+	
+	
+Fend
+Function literaT(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
+	T1 = pole +X(-31) +Y(-15)
+	T2 = T1 +Y(-42)
+	T3 = T2 +X(-7)
+	T4 = T3 +Y(17)
+	T5 = T4 +X(-50)
+	T6 = T5 +Y(7)
+	T7 = T6 +X(50)
+	T8 = T1 +X(-7)
+	
+	Move T1
+	Move T2
+	Move T3
+	Move T4
+	Move T5
+	Move T6
+	Move T7
+	Move T8
+	Move T1
+	
+Fend
+Function literaO(wybor As Integer)
+
+	Select wybor
+		Case 1
+			pole = Pole1
+			
+		Case 2
+			pole = Pole2
+		
+		Case 3
+			pole = Pole3
+		
+	Send
+	
+	O1 = pole +X(-43) +Y(-22)
+	O2 = O1 +X(5) +Y(-13)
+	O3 = O1 +Y(-26)
+	O4 = O1 +X(-1) +Y(1)
+	O5 = O3 +Y(-1) +X(-1)
+	O6 = O4 +X(-16) +Y(4)
+	O7 = O4 +X(-32)
+	O8 = O6 +Y(-34)
+	O9 = O7 +Y(-26)
+	O10 = O9 +X(-1) +Y(1)
+	O11 = O7 +X(-1) +Y(-1)
+	O12 = O2 +X(-44)
+	O13 = O1 +X(9)
+	O14 = O2 +X(6)
+	O15 = O3 +X(9)
+	O16 = O5 +X(10)
+	O17 = O8 +Y(-7)
+	O18 = O9 +X(-10)
+	O19 = O10 +X(-9)
+	O20 = O12 +X(-6)
+	O21 = O11 +X(-9)
+	O22 = O7 +X(-10)
+	O23 = O6 +Y(7)
+	O24 = O4 +X(10)
+	
+	Move O1
+	Arc O2, O3
+	Move O5
+	Arc O8, O9
+	Move O10
+	Arc O12, O11
+	Move O7
+	Arc O6, O4
+	Move O1
+	Move O13
+	Arc O14, O15
+	Move O16
+	Arc O17, O18
+	Move O19
+	Arc O20, O21
+	Move O22
+	Arc O23, O24
+	Move O13
+Fend
+Function pisz(jaka_litera$ As String, jakie_pole As Integer)
+	Select UCase$(jaka_litera$)
+		Case "A"
+			Call literaA(jakie_pole)
+	Send
+	
+Fend
+Function astor
+	Call literaA(1)
+	Jump Pole2 LimZ -80
+	Call literaS(2)
+	Jump Pole3 LimZ -80
+	Call literaT(3)
+	Jump Pole4 LimZ -80
+	Call literaO(4)
+	
 	
 Fend
 
