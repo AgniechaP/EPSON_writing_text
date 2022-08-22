@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/08/18 23:26:40:398,DS:0000007115,CS:08737,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/19 09:20:26:118,DS:0000007115,CS:09768,MA:88-D7-F6-22-0A-47,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
@@ -43,7 +43,7 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="18.08.2022 23:18:37"
+	sTimeSavedInController="18.08.2022 23:26:40"
 }
 nIncludeFileCount=0
 nPointFileCount=1
