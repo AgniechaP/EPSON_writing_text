@@ -1,11 +1,35 @@
 Function Robot_PLC
 	Do
-	If InW(44) = 1 Then
-		Call Init()
-	ElseIf InW(44) = 2 Then
+		If InW(44) = 1 Then
+			 Call Init
+			' Call literaA(2)
+			If InW(32) = 1 Then ' If P1_robot = 1
+				If InW(38) = 1 Then ' P1_letter_robot = 1
+					Call literaA(1)
+				ElseIf InW(38) = 2 Then ' P1_letter_robot = 2
+					Call literaB(1)
+				EndIf
+			EndIf
+			
+			If InW(33) = 1 Then
+				If InW(39) = 1 Then
+					Call literaA(2)
+				ElseIf InW(39) = 2 Then
+					Call literaB(2)
+				EndIf
+			EndIf
+				
+		EndIf
+			'#########
+			'Pole_1
+			'#########
+		'If InW(42) = 1 Then ' Na polu 1 jest litera
+		'	Call pisz(InW(38), InW(32))
+		'EndIf
+		
+		Go HomePos
 		Motor Off
-	EndIf
-Loop
+	Loop
 	
 Fend
 

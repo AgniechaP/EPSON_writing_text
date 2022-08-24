@@ -1,10 +1,28 @@
 Function Robot_PLC
 	Do
-	If InW(44) = 1 Then
-		Call Init()
-	ElseIf InW(44) = 2 Then
-		Motor Off
+		If InW(44) = 1 Then
+			 Call Init
+			' Call literaA(2)
+			'If InW(32) = 1 Then
+			'	If InW(38) = 1 Then
+			'		Call literaA(1)
+			'	EndIf
+			
+	'	EndIf
+				
 	EndIf
+			'#########
+			'Pole_1
+			'#########
+		'If InW(42) = 1 Then ' Na polu 1 jest litera
+		'	Call pisz(InW(38), InW(32))
+		'EndIf
+		
+	Loop
+	
+Fend
+
+
 '	Do
 '		Integer stan
 '		stan = InW(40)
@@ -24,7 +42,5 @@ Function Robot_PLC
 '			EndIf
 '		EndIf
 '	Loop
-Loop
-	
-Fend
+
 

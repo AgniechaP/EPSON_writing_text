@@ -1,7 +1,7 @@
-ENVT0100,LM:2022/08/24 09:19:27:587,DS:0000003167,CS:00299,MA:88-D7-F6-22-0A-47,EI:           
-sActiveChild="Init.prg"
+ENVT0100,LM:2022/08/24 14:01:15:398,DS:0000003328,CS:10528,MA:88-D7-F6-22-0A-47,EI:           
+sActiveChild="Write_letters.prg"
 bMdiMaximized=False
-nProgramFileCount=3
+nProgramFileCount=4
 ProgramFile1 {
 	sName="Main.prg"
 	bOpened=True
@@ -9,8 +9,8 @@ ProgramFile1 {
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=722
-		nHeight=474
+		nWidth=721
+		nHeight=470
 	}
 }
 ProgramFile2 {
@@ -35,6 +35,17 @@ ProgramFile3 {
 		nHeight=0
 	}
 }
+ProgramFile4 {
+	sName="Write_letters.prg"
+	bOpened=True
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
 nIncludeFileCount=0
 nPointFileCount=1
 PointFile1 {
@@ -44,8 +55,8 @@ PointFile1 {
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=0
-		nHeight=0
+		nWidth=1035
+		nHeight=443
 	}
 }
 nForceFileCount=0
@@ -61,14 +72,14 @@ CmdWindow {
 	nWinState=0
 }
 RunWindow {
-	bOpened=False
+	bOpened=True
 	Window {
-		nLeft=508
-		nTop=110
-		nWidth=739
-		nHeight=407
+		nLeft=525
+		nTop=1
+		nWidth=729
+		nHeight=378
 	}
-	nWinState=0
+	nWinState=1
 	nNumOfDisplays=1
 	nSplitterDistance=364
 	Display1 {
@@ -101,18 +112,18 @@ IOLabelEditor {
 	Window {
 		nLeft=0
 		nTop=0
-		nWidth=0
-		nHeight=0
+		nWidth=1035
+		nHeight=443
 	}
 	nWinState=0
 }
 IOMonitor {
 	bOpened=False
 	Window {
-		nLeft=0
-		nTop=0
-		nWidth=0
-		nHeight=0
+		nLeft=487
+		nTop=238
+		nWidth=520
+		nHeight=375
 	}
 }
 Simulator {

@@ -1,7 +1,3 @@
-Function main
-	Robot_PLC()
-Fend
-
 Function literaA(numer_pola As Integer)
 	Select numer_pola
 	Case 1
@@ -1130,11 +1126,13 @@ Function literaR(numer_pola As Integer)
 	Move R16
 	
 Fend
-Function pisz(jaka_litera$ As String, jakie_pole As Integer)
-	Select UCase$(jaka_litera$)
-		Case "A"
+Function pisz(jaka_litera As Integer, jakie_pole As Integer)
+' (jaka_litera$ As String, jakie_pole As Integer)
+'	Select UCase$(jaka_litera$)
+	Select jaka_litera
+		Case 1
 			Call literaA(jakie_pole)
-		Case "B"
+		Case 2
 			Call literaB(jakie_pole)
 	Send
 	
@@ -1153,4 +1151,3 @@ Function astor
 	
 	
 Fend
-
