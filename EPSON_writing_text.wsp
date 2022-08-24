@@ -1,7 +1,7 @@
-ENVT0100,LM:2022/08/24 00:40:05:810,DS:0000003048,CS:27773,MA:88-D7-F6-22-0A-47,EI:           
-sActiveChild="RobotPLC_prg.prg"
+ENVT0100,LM:2022/08/24 09:19:27:587,DS:0000003167,CS:00299,MA:88-D7-F6-22-0A-47,EI:           
+sActiveChild="Init.prg"
 bMdiMaximized=False
-nProgramFileCount=2
+nProgramFileCount=3
 ProgramFile1 {
 	sName="Main.prg"
 	bOpened=True
@@ -15,6 +15,17 @@ ProgramFile1 {
 }
 ProgramFile2 {
 	sName="RobotPLC_prg.prg"
+	bOpened=True
+	nWinState=0
+	Window {
+		nLeft=0
+		nTop=0
+		nWidth=0
+		nHeight=0
+	}
+}
+ProgramFile3 {
+	sName="Init.prg"
 	bOpened=True
 	nWinState=0
 	Window {
@@ -202,7 +213,7 @@ ProjectExplorer {
 	bIncludesOpened=False
 	bLabelsOpened=True
 	bMacrosOpened=True
-	bFunctionsOpened=False
+	bFunctionsOpened=True
 	bVisionOpened=True
 	bVisionSequencesOpened=False
 	bVisionCalibsOpened=False

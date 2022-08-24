@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/08/24 00:40:43:093,DS:0000007249,CS:02580,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/24 12:18:46:234,DS:0000007378,CS:32575,MA:88-D7-F6-22-0A-47,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="04adde6a-d89c-4f6e-9b55-2aac5112be8d"
 	sPath="E:\\EpsonRC70\\Projects\\EPSON_writing_text\\"
 	sCreated="16.08.2022 08:58:49"
-	sLastModified="24.08.2022 02:40:42"
+	sLastModified="24.08.2022 13:16:07"
 	bBuildComplete=True
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -21,13 +21,13 @@ UserProperties {
 	bGlobalsDeclaredEachFile=False
 }
 ControllerConnection {
-	sName="Virtual"
-	sType="Virtual"
-	sIPAddress="127.0.0.1"
+	sName="USB"
+	sType="USB"
+	sIPAddress="N/A"
 	nPort=-1
-	sControllerName=""
-	nControllerType=6
-	sControllerTypeName="Virtual"
+	sControllerName="T3-401S"
+	nControllerType=458753
+	sControllerTypeName="T"
 }
 IOLabelFile {
 	sName="IOLabels.dat"
@@ -38,18 +38,24 @@ UserErrorsFile {
 	nChecksum=0
 }
 nRobotCount=1
-nProgramFileCount=2
+nProgramFileCount=3
 ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="24.08.2022 00:40:42"
+	sTimeSavedInController="24.08.2022 11:10:28"
 }
 ProgramFile2 {
 	sName="RobotPLC_prg.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="24.08.2022 00:40:31"
+	sTimeSavedInController="24.08.2022 11:16:07"
+}
+ProgramFile3 {
+	sName="Init.prg"
+	bCompiled=True
+	bStoreInController=True
+	sTimeSavedInController="24.08.2022 11:14:59"
 }
 nIncludeFileCount=0
 nPointFileCount=1
@@ -425,6 +431,6 @@ FGFile1 {
 }
 bFGCompiled=False
 Simulator {
-	sSimProjFile="E:\\EpsonRC70\\Simulator\\Virtual\\SimObjects.dat"
+	sSimProjFile="E:\\EpsonRC70\\Simulator\\SO733_T300010276\\SimObjects.dat"
 }
 nPFFileCount=0

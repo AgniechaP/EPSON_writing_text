@@ -1,4 +1,15 @@
-Function Robot_PLC_prg
+Function Robot_PLC
+	Do
+	If InW(44) = 1 Then
+		Call Init()
+	ElseIf InW(44) = 2 Then
+		Motor Off
+	EndIf
+Loop
+	
+Fend
+
+
 '	Do
 '		Integer stan
 '		stan = InW(40)
@@ -18,6 +29,5 @@ Function Robot_PLC_prg
 '			EndIf
 '		EndIf
 '	Loop
-'	
-Fend
+
 
