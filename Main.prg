@@ -1,5 +1,6 @@
 Function main
 	Call Init
+	Call Robot_PLC_prg
 Fend
 Function Init
 	Reset
@@ -50,7 +51,7 @@ Function literaA(numer_pola As Integer)
 		
 ' Ruch litera A 
 
- 		Jump A1 LimZ -50 'tu bedzie jump zeby pisak nie byl na dole
+ 		Jump A1 LimZ -72 'tu bedzie jump zeby pisak nie byl na dole
  		Move A2
  		Move A3
  		Move A4
@@ -111,7 +112,7 @@ Function literaB(numer_pola As Integer)
 	B17 = B12 +Y(-7)
 	B18 = B13 +Y(-7)
 	
-		Jump B1 LimZ -60
+		Jump B1 LimZ -72
 		Move B2
 		Arc B3, B4
 		Arc B5, B6
@@ -164,7 +165,7 @@ Function literaC(numer_pola As Integer)
 	
 
 		
-	Jump C1 LimZ -50
+	Jump C1 LimZ -72
 	Move C2
 	Arc C3, C4
 	Move C5
@@ -212,7 +213,7 @@ Function literaG(numer_pola As Integer)
 	G13 = G2 +X(-7)
 	G14 = G1 +X(-7)
 	
-	Jump G1 LimZ -60
+	Jump G1 LimZ -72
 	Move G2
 	Arc G3, G4
 	Move G5
@@ -261,7 +262,7 @@ Function literaH(numer_pola As Integer)
 	H11 = H10 +X(-25)
 	H12 = H11 +Y(26)
 	
-	Jump H1 LimZ -60
+	Jump H1 LimZ -72
 	Move H2
 	Move H3
 	Move H4
@@ -303,7 +304,7 @@ Function literaI(numer_pola As Integer)
 	I3 = I2 +X(7)
 	I4 = I3 +Y(56)
 	
-	Jump I1 LimZ -60
+	Jump I1 LimZ -72
 	Move I2
 	Move I3
 	Move I4
@@ -342,7 +343,7 @@ Function literaJ(numer_pola As Integer)
 	Jj7 = Jj2 +X(7)
 	Jj8 = Jj1 +X(7)
 	
-	Jump Jj1 LimZ -60
+	Jump Jj1 LimZ -72
 	Move Jj2
 	Arc Jj3, Jj4
 	Move Jj5
@@ -384,7 +385,7 @@ Function literaK(numer_pola As Integer)
 	K9 = K8 +X(-7)
 	K10 = K1 +X(7)
 	
-	Jump K1 LimZ -60
+	Jump K1 LimZ -72
 	Move K2
 	Move K3
 	Move K4
@@ -430,7 +431,7 @@ Function literaN(numer_pola As Integer)
 	N10 = N8 +X(-27)
 	
 	
-	Jump N1 LimZ -60
+	Jump N1 LimZ -72
 	Move N2
 	Move N3
 	Move N4
@@ -462,7 +463,7 @@ Function literaD
 	D16 = D2 +X(-8)
 	D17 = D9 +X(-8)
 		
-	Jump D1 LimZ -60
+	Jump D1 LimZ -72
 	Move D2
 	Arc D3, D4
 	Move D5
@@ -588,7 +589,7 @@ Function literaS(numer_pola As Integer)
 	S27 = S1 +Y(-6)
 	
 	
-	Jump S1 LimZ -60
+	Jump S1 LimZ -72
 	Arc S2, S3
 	Move S7
 	Arc S8, S9
@@ -640,7 +641,7 @@ Function literaT(numer_pola As Integer)
 	T7 = T6 +Y(50)
 	T8 = T1 +Y(-7)
 	
-	Jump T1 LimZ -60
+	Jump T1 LimZ -72
 	Move T2
 	Move T3
 	Move T4
@@ -684,7 +685,7 @@ Function literaU(numer_pola As Integer)
 	U10 = U1 +X(7)
 	
 	
-	Jump U1 LimZ -60
+	Jump U1 LimZ -72
 	Move U2
 	Arc U3, U4
 	Move U5
@@ -732,7 +733,7 @@ Function literaW(numer_pola As Integer)
 	W12 = W11 +X(-9.5) +Y(-39)
 	W13 = W1 +X(7)
 	
-	Jump W1 LimZ -60
+	Jump W1 LimZ -72
 	Move W2
 	Move W3
 	Move W4
@@ -783,7 +784,7 @@ Function literaX(numer_pola As Integer)
 	X11 = X10 +X(-13) +Y(-22)
 	X12 = X1 +X(7)
 	
-	Jump X1 LimZ -60
+	Jump X1 LimZ -72
 	Move X2
 	Move X3
 	Move X4
@@ -831,7 +832,7 @@ Function literaY(numer_pola As Integer)
 	Y8 = Y7 +X(-12.5) +Y(-26)
 	Y9 = Y8 +Y(26) +X(-12.5)
 	
-	Jump Y1 LimZ -60
+	Jump Y1 LimZ -72
 	Move Y2
 	Move Y3
 	Move Y4
@@ -876,7 +877,7 @@ Function literaZ(numer_pola As Integer)
 	Z9 = Z3 +X(8)
 	Z10 = Z9 +Y(7)
 	
-	Jump Z1 LimZ -60
+	Jump Z1 LimZ -72
 	Move Z2
 	Move Z3
 	Move Z4
@@ -926,7 +927,7 @@ Function literaO(numer_pola As Integer)
 	O13 = O1 +Y(7)
 	
 
-	Jump O1 LimZ -50
+	Jump O1 LimZ -72
 	Move O2
 	Arc O3, O4
 	Move O5
@@ -974,7 +975,7 @@ Function literaP(numer_pola As Integer)
 	Pp12 = Pp10 +Y(22)
 	Pp13 = Pp12 +X(-11)
 	
-	Jump Pp8 LimZ -60
+	Jump Pp8 LimZ -72
 	Move Pp1
 	Move Pp2
 	Move Pp3
@@ -1018,7 +1019,7 @@ Function literaL(numer_pola As Integer)
 	L6 = L1 +X(7)
 	L5 = L6 +Y(-49)
 	
-	Jump L1 LimZ -60
+	Jump L1 LimZ -72
 	Move L2
 	Move L3
 	Move L4
@@ -1065,7 +1066,7 @@ Function literaM(numer_pola As Integer)
 	
 	
 	
-	Jump M1 LimZ -60
+	Jump M1 LimZ -72
 	Move M2
 	Move M3
 	Move M4
@@ -1119,7 +1120,7 @@ Function literaR(numer_pola As Integer)
 	R15 = R2 +Y(-7)
 	R16 = R11 +Y(-7)
 	
-	Jump R1 LimZ -60
+	Jump R1 LimZ -72
 	Move R2
 	Arc R3, R4
 	Move R5
@@ -1140,18 +1141,20 @@ Function pisz(jaka_litera$ As String, jakie_pole As Integer)
 	Select UCase$(jaka_litera$)
 		Case "A"
 			Call literaA(jakie_pole)
+		Case "B"
+			Call literaB(jakie_pole)
 	Send
 	
 Fend
 Function astor
 	Call literaA(1)
-	Jump Pole2 LimZ -60
+	Jump Pole2 LimZ -72
 	Call literaS(2)
-	Jump Pole3 LimZ -60
+	Jump Pole3 LimZ -72
 	Call literaT(3)
-	Jump Pole4 LimZ -60
+	Jump Pole4 LimZ -72
 	Call literaO(4)
-	Jump Pole5 LimZ -60
+	Jump Pole5 LimZ -72
 	Call literaR(5)
 	
 	
