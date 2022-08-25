@@ -40,7 +40,7 @@ Function literaA(numer_pola As Integer)
 		
 ' Ruch litera A 
 
- 		Jump A1 LimZ -72 'tu bedzie jump zeby pisak nie byl na dole
+ 		Jump A1 LimZ -62 'tu bedzie jump zeby pisak nie byl na dole
  		Move A2
  		Move A3
  		Move A4
@@ -1129,6 +1129,7 @@ Fend
 Function pisz(jaka_litera As Integer, jakie_pole As Integer)
 ' (jaka_litera$ As String, jakie_pole As Integer)
 '	Select UCase$(jaka_litera$)
+	Select jaka_litera
 		Case 1
 			Call literaA(jakie_pole)
 		Case 2
