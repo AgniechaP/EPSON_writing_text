@@ -101,7 +101,7 @@ Function literaB(numer_pola As Integer)
 	B17 = B12 +Y(-7)
 	B18 = B13 +Y(-7)
 	
-		Jump B1 LimZ -72
+		Jump B1 LimZ -62
 		Move B2
 		Arc B3, B4
 		Arc B5, B6
@@ -154,7 +154,7 @@ Function literaC(numer_pola As Integer)
 	
 
 		
-	Jump C1 LimZ -72
+	Jump C1 LimZ -62
 	Move C2
 	Arc C3, C4
 	Move C5
@@ -202,7 +202,7 @@ Function literaG(numer_pola As Integer)
 	G13 = G2 +X(-7)
 	G14 = G1 +X(-7)
 	
-	Jump G1 LimZ -72
+	Jump G1 LimZ -62
 	Move G2
 	Arc G3, G4
 	Move G5
@@ -251,7 +251,7 @@ Function literaH(numer_pola As Integer)
 	H11 = H10 +X(-25)
 	H12 = H11 +Y(26)
 	
-	Jump H1 LimZ -72
+	Jump H1 LimZ -62
 	Move H2
 	Move H3
 	Move H4
@@ -293,7 +293,7 @@ Function literaI(numer_pola As Integer)
 	I3 = I2 +X(7)
 	I4 = I3 +Y(56)
 	
-	Jump I1 LimZ -72
+	Jump I1 LimZ -62
 	Move I2
 	Move I3
 	Move I4
@@ -332,7 +332,7 @@ Function literaJ(numer_pola As Integer)
 	Jj7 = Jj2 +X(7)
 	Jj8 = Jj1 +X(7)
 	
-	Jump Jj1 LimZ -72
+	Jump Jj1 LimZ -62
 	Move Jj2
 	Arc Jj3, Jj4
 	Move Jj5
@@ -374,7 +374,7 @@ Function literaK(numer_pola As Integer)
 	K9 = K8 +X(-7)
 	K10 = K1 +X(7)
 	
-	Jump K1 LimZ -72
+	Jump K1 LimZ -62
 	Move K2
 	Move K3
 	Move K4
@@ -420,7 +420,7 @@ Function literaN(numer_pola As Integer)
 	N10 = N8 +X(-27)
 	
 	
-	Jump N1 LimZ -72
+	Jump N1 LimZ -62
 	Move N2
 	Move N3
 	Move N4
@@ -433,8 +433,28 @@ Function literaN(numer_pola As Integer)
 	Move N1
 	
 Fend
-Function literaD
-	D1 = Pole4 +X(-32) +Y(-15)
+Function literaD(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
+	D1 = pole +X(-32) +Y(-15)
 	D2 = D1 +Y(-20)
 	D3 = D2 +X(-8) +Y(-16)
 	D4 = D2 +X(-26) +Y(-22)
@@ -452,7 +472,7 @@ Function literaD
 	D16 = D2 +X(-8)
 	D17 = D9 +X(-8)
 		
-	Jump D1 LimZ -72
+	Jump D1 LimZ -62
 	Move D2
 	Arc D3, D4
 	Move D5
@@ -470,9 +490,29 @@ Function literaD
 	
 	
 Fend
-Function literaE
+Function literaE(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
 ' Krawedzie litera E
- 	E1 = Pole5 +X(-31) +Y(-51)
+ 	E1 = pole +X(-31) +Y(-51)
  	E2 = E1 +Y(30)
  	E3 = E2 +X(-56)
  	E4 = E1 +X(-56)
@@ -485,7 +525,7 @@ Function literaE
  	E11 = E10 +X(15)
  	E12 = E1 +X(-7)
  	
- 	Move E1
+ 	Jump E1 LimZ -62
  	Move E2
  	Move E3
  	Move E4
@@ -502,9 +542,29 @@ Function literaE
  	
 	
 Fend
-Function literaF
+Function literaF(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
 ' Krawedzie litera F
- 	F1 = Pole6 +X(-31) +Y(-51)
+ 	F1 = pole +X(-31) +Y(-51)
  	F2 = F1 +Y(30)
  	F3 = F2 +X(-56)
  	F4 = F3 +Y(-7)
@@ -515,7 +575,7 @@ Function literaF
  	F9 = F8 +X(19)
  	F10 = F9 +Y(-20)
  	
- 	Move F1
+ 	Jump F1 LimZ -62
  	Move F2
  	Move F3
  	Move F4
@@ -578,7 +638,7 @@ Function literaS(numer_pola As Integer)
 	S27 = S1 +Y(-6)
 	
 	
-	Jump S1 LimZ -72
+	Jump S1 LimZ -62
 	Arc S2, S3
 	Move S7
 	Arc S8, S9
@@ -630,7 +690,7 @@ Function literaT(numer_pola As Integer)
 	T7 = T6 +Y(50)
 	T8 = T1 +Y(-7)
 	
-	Jump T1 LimZ -72
+	Jump T1 LimZ -62
 	Move T2
 	Move T3
 	Move T4
@@ -674,7 +734,7 @@ Function literaU(numer_pola As Integer)
 	U10 = U1 +X(7)
 	
 	
-	Jump U1 LimZ -72
+	Jump U1 LimZ -62
 	Move U2
 	Arc U3, U4
 	Move U5
@@ -722,7 +782,7 @@ Function literaW(numer_pola As Integer)
 	W12 = W11 +X(-9.5) +Y(-39)
 	W13 = W1 +X(7)
 	
-	Jump W1 LimZ -72
+	Jump W1 LimZ -62
 	Move W2
 	Move W3
 	Move W4
@@ -773,7 +833,7 @@ Function literaX(numer_pola As Integer)
 	X11 = X10 +X(-13) +Y(-22)
 	X12 = X1 +X(7)
 	
-	Jump X1 LimZ -72
+	Jump X1 LimZ -62
 	Move X2
 	Move X3
 	Move X4
@@ -821,7 +881,7 @@ Function literaY(numer_pola As Integer)
 	Y8 = Y7 +X(-12.5) +Y(-26)
 	Y9 = Y8 +Y(26) +X(-12.5)
 	
-	Jump Y1 LimZ -72
+	Jump Y1 LimZ -62
 	Move Y2
 	Move Y3
 	Move Y4
@@ -866,7 +926,7 @@ Function literaZ(numer_pola As Integer)
 	Z9 = Z3 +X(8)
 	Z10 = Z9 +Y(7)
 	
-	Jump Z1 LimZ -72
+	Jump Z1 LimZ -62
 	Move Z2
 	Move Z3
 	Move Z4
@@ -916,7 +976,7 @@ Function literaO(numer_pola As Integer)
 	O13 = O1 +Y(7)
 	
 
-	Jump O1 LimZ -72
+	Jump O1 LimZ -62
 	Move O2
 	Arc O3, O4
 	Move O5
@@ -964,7 +1024,7 @@ Function literaP(numer_pola As Integer)
 	Pp12 = Pp10 +Y(22)
 	Pp13 = Pp12 +X(-11)
 	
-	Jump Pp8 LimZ -72
+	Jump Pp8 LimZ -62
 	Move Pp1
 	Move Pp2
 	Move Pp3
@@ -1008,7 +1068,7 @@ Function literaL(numer_pola As Integer)
 	L6 = L1 +X(7)
 	L5 = L6 +Y(-49)
 	
-	Jump L1 LimZ -72
+	Jump L1 LimZ -62
 	Move L2
 	Move L3
 	Move L4
@@ -1055,7 +1115,7 @@ Function literaM(numer_pola As Integer)
 	
 	
 	
-	Jump M1 LimZ -72
+	Jump M1 LimZ -62
 	Move M2
 	Move M3
 	Move M4
@@ -1109,7 +1169,7 @@ Function literaR(numer_pola As Integer)
 	R15 = R2 +Y(-7)
 	R16 = R11 +Y(-7)
 	
-	Jump R1 LimZ -72
+	Jump R1 LimZ -62
 	Move R2
 	Arc R3, R4
 	Move R5
@@ -1139,13 +1199,13 @@ Function pisz(jaka_litera As Integer, jakie_pole As Integer)
 Fend
 Function astor
 	Call literaA(1)
-	Jump Pole2 LimZ -72
+	Jump Pole2 LimZ -62
 	Call literaS(2)
-	Jump Pole3 LimZ -72
+	Jump Pole3 LimZ -62
 	Call literaT(3)
-	Jump Pole4 LimZ -72
+	Jump Pole4 LimZ -62
 	Call literaO(4)
-	Jump Pole5 LimZ -72
+	Jump Pole5 LimZ -62
 	Call literaR(5)
 	
 	

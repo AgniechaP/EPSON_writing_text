@@ -1,12 +1,12 @@
-ENVT0100,LM:2022/08/25 09:55:27:774,DS:0000007515,CS:10034,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/25 17:59:06:338,DS:0000007516,CS:31749,MA:88-D7-F6-22-0A-47,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="04adde6a-d89c-4f6e-9b55-2aac5112be8d"
 	sPath="E:\\EpsonRC70\\Projects\\EPSON_writing_text\\"
 	sCreated="16.08.2022 08:58:49"
-	sLastModified="25.08.2022 11:35:32"
-	bBuildComplete=True
+	sLastModified="25.08.2022 19:59:04"
+	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
 	bClearControllerProject=False

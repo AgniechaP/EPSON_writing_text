@@ -433,8 +433,28 @@ Function literaN(numer_pola As Integer)
 	Move N1
 	
 Fend
-Function literaD
-	D1 = Pole4 +X(-32) +Y(-15)
+Function literaD(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
+	D1 = pole +X(-32) +Y(-15)
 	D2 = D1 +Y(-20)
 	D3 = D2 +X(-8) +Y(-16)
 	D4 = D2 +X(-26) +Y(-22)
@@ -470,9 +490,29 @@ Function literaD
 	
 	
 Fend
-Function literaE
+Function literaE(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
 ' Krawedzie litera E
- 	E1 = Pole5 +X(-31) +Y(-51)
+ 	E1 = pole +X(-31) +Y(-51)
  	E2 = E1 +Y(30)
  	E3 = E2 +X(-56)
  	E4 = E1 +X(-56)
@@ -502,9 +542,29 @@ Function literaE
  	
 	
 Fend
-Function literaF
+Function literaF(numer_pola As Integer)
+	Select numer_pola
+	Case 1
+		pole = Pole1
+	Case 2
+		' Pole2
+		pole = Pole2
+	Case 3
+		' Pole3
+		pole = Pole3
+	Case 4
+		' Pole4
+		pole = Pole4
+	Case 5
+		' Pole5
+		pole = Pole5
+	Case 6
+		' Pole6
+		pole = Pole6
+	Send
+	
 ' Krawedzie litera F
- 	F1 = Pole6 +X(-31) +Y(-51)
+ 	F1 = pole +X(-31) +Y(-51)
  	F2 = F1 +Y(30)
  	F3 = F2 +X(-56)
  	F4 = F3 +Y(-7)
@@ -1147,7 +1207,6 @@ Function astor
 	Call literaO(4)
 	Jump Pole5 LimZ -62
 	Call literaR(5)
-	
-	
+		
 	
 Fend
