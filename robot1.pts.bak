@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/08/24 14:21:03:194,DS:0000087519,CS:03611,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/24 15:14:19:125,DS:0000087519,CS:03610,MA:88-D7-F6-22-0A-47,EI:           
 sVersion="2.0.0"
 nDisplayMode=2
 bDisplayR=False
@@ -4641,7 +4641,7 @@ Point179 {
 	nUndefined=448
 	rX=-209.32
 	rY=337.895
-	rZ=-75
+	rZ=-65
 	rU=191.605
 	rV=0
 	rW=0
