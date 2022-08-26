@@ -1207,7 +1207,6 @@ Function astor
 	Call literaO(4)
 	Jump Pole5 LimZ -62
 	Call literaR(5)
-	
-	
+		
 	
 Fend

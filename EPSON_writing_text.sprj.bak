@@ -1,11 +1,11 @@
-ENVT0100,LM:2022/08/25 17:59:04:846,DS:0000007517,CS:02331,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/26 08:24:32:521,DS:0000007517,CS:14886,MA:88-D7-F6-22-0A-47,EI:           
 SystemProperties {
 	sRCVersion="7.5.2"
 	sRCRevision=""
 	sGUID="04adde6a-d89c-4f6e-9b55-2aac5112be8d"
 	sPath="E:\\EpsonRC70\\Projects\\EPSON_writing_text\\"
 	sCreated="16.08.2022 08:58:49"
-	sLastModified="25.08.2022 19:59:04"
+	sLastModified="26.08.2022 10:24:13"
 	bBuildComplete=False
 	bFirstBuildComplete=True
 	bRebuildRequired=False
@@ -47,9 +47,9 @@ ProgramFile1 {
 }
 ProgramFile2 {
 	sName="RobotPLC_prg.prg"
-	bCompiled=True
+	bCompiled=False
 	bStoreInController=True
-	sTimeSavedInController="25.08.2022 09:35:32"
+	sTimeSavedInController="25.08.2022 17:58:29"
 }
 ProgramFile3 {
 	sName="Init.prg"
@@ -59,9 +59,9 @@ ProgramFile3 {
 }
 ProgramFile4 {
 	sName="Write_letters.prg"
-	bCompiled=False
+	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="25.08.2022 09:15:12"
+	sTimeSavedInController="26.08.2022 06:43:39"
 }
 nIncludeFileCount=0
 nPointFileCount=1

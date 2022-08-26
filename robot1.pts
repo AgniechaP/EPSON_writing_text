@@ -1,4 +1,4 @@
-ENVT0100,LM:2022/08/25 09:12:00:406,DS:0000087519,CS:03610,MA:88-D7-F6-22-0A-47,EI:           
+ENVT0100,LM:2022/08/26 08:24:23:345,DS:0000087513,CS:03096,MA:88-D7-F6-22-0A-47,EI:           
 sVersion="2.0.0"
 nDisplayMode=2
 bDisplayR=False
@@ -13,7 +13,7 @@ Point1 {
 	nUndefined=0
 	rX=-209.32
 	rY=337.895
-	rZ=-86.25
+	rZ=-86.5
 	rU=191.605
 	rV=0
 	rW=0
@@ -351,7 +351,7 @@ Point14 {
 	nUndefined=448
 	rX=-140.32
 	rY=337.895
-	rZ=-86.25
+	rZ=-86.5
 	rU=191.605
 	rV=0
 	rW=0
@@ -845,7 +845,7 @@ Point33 {
 	nUndefined=448
 	rX=-71.32
 	rY=337.895
-	rZ=-86.25
+	rZ=-86.5
 	rU=191.605
 	rV=0
 	rW=0
@@ -1131,7 +1131,7 @@ Point44 {
 	nUndefined=448
 	rX=-2.32
 	rY=337.895
-	rZ=-86.25
+	rZ=-86.5
 	rU=191.605
 	rV=0
 	rW=0
@@ -1625,7 +1625,7 @@ Point63 {
 	nUndefined=448
 	rX=66.68
 	rY=337.895
-	rZ=-86.25
+	rZ=-86.5
 	rU=191.605
 	rV=0
 	rW=0
@@ -1963,7 +1963,7 @@ Point76 {
 	nUndefined=448
 	rX=135.68
 	rY=337.895
-	rZ=-86.25
+	rZ=-86.5
 	rU=191.605
 	rV=0
 	rW=0

@@ -60,25 +60,18 @@ Function literaB(numer_pola As Integer)
 	Select numer_pola
 	Case 1
 		pole = Pole1
-	Case 2
-		' Pole2
+	Case 2 ' Pole2
 		pole = Pole2
-	Case 3
-		' Pole3
+	Case 3 ' Pole3
 		pole = Pole3
-	Case 4
-		' Pole4
+	Case 4 ' Pole4
 		pole = Pole4
-	Case 5
-		' Pole5
+	Case 5 ' Pole5
 		pole = Pole5
-	Case 6
-		' Pole6
+	Case 6 ' Pole6
 		pole = Pole6
 	Send
-' Definicja B
 ' Kontury zewntrzne litery B
-
 	B1 = pole +Y(-30) +X(18)
 	B2 = B1 +X(18)
 	B3 = B2 +Y(-15) +X(12)
@@ -87,9 +80,8 @@ Function literaB(numer_pola As Integer)
 	B6 = B2 +Y(-56)
 	B7 = B1 +Y(-56)
 	B8 = B1 +X(7)
-
-' Kontury wewnetrzne litery B
 	
+' Kontury wewnetrzne litery B	
 	B9 = B8 +Y(-7)
 	B10 = B2 +Y(-7)
 	B11 = B3 +X(-9)
